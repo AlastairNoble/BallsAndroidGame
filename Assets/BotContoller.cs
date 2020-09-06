@@ -23,7 +23,6 @@ public class BotContoller : MonoBehaviour
     public float moreSpeed = .5f;
     private float timer1;
     private float timer;
-    public float fuck = 0;
     public float numSpeedIncreases = 10;
     private float count;
     public float speedDelay = 10;
@@ -65,7 +64,6 @@ public class BotContoller : MonoBehaviour
             {
                 timer1 = speedInterval;
                 speed += moreSpeed;
-                fuck++;
                 count++;
 
             }
